@@ -1,3 +1,12 @@
+*{
+  font-size: 16px;
+}
+
+div, h1 {
+  background-color: lightblue;
+  padding: 12px;
+  margin: 12px 6px 6px;
+}
 body {
   background: #eee;
   font-family: sans-serif;
@@ -9,19 +18,14 @@ body {
   margin: 16px auto;
 }
 
-.title {
-  background: #e3f4ff;
-}
-
-.content {
-  background: #e3f4ff;
-}
-
 .button-container {
-  background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
-  border: 1px solid #eee;
+  border: 1px solid #c5c5c5;
+  padding: 8px 16px;
+  display: block;
+  margin: 0 auto;
 }
